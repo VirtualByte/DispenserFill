@@ -1,0 +1,7 @@
+noPermission: "&cYou do not have permission."
+dispensersFilled: "&e{amount} dispensers in a range of {range} blocks has been filled."
+noDispensersFound: "&cNo dispensers can be found within specified range."
+maximumRange: "&cGiven radius exceeds maximum range."
+invalidNumber: "&cGiven number parameter is either negative or is not a number."
+noItemInHand: "&cYou are not holding any items."
+reloaded: "&eConfiguration successfully reloaded."

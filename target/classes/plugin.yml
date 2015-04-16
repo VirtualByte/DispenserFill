@@ -1,0 +1,21 @@
+name: DispenserFill
+main: me.virtualbyte.plugins.dispenserfill.DispenserFill
+version: 1.0.0
+author: VirtualByte
+permissions:
+  dispenserfill.fill:
+    description: Access to the /filldispensers command.
+  dispenserfill.bypass:
+    description: Allowed to bypass the maximum range allowed.
+    default: OP
+  dispenserfill.custom:
+    description: Allowed to specify a range of blocks to check for dispensers to fill.
+    default: OP
+  dispenserfill.reload:
+    description: Access to the /dfreload command.
+commands:
+  filldispensers:
+    description: Fill nearby dispensers with item in-hand.
+    aliases: [filldispenser, fd]
+  dfreload:
+    description: Reload configuration for DispenserFill.
