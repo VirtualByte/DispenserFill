@@ -1,6 +1,6 @@
 name: DispenserFill
 main: me.virtualbyte.plugins.dispenserfill.DispenserFill
-version: 1.0.0
+version: 1.0.1
 author: VirtualByte
 permissions:
   dispenserfill.fill:

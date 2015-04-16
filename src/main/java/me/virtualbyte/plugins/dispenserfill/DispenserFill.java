@@ -25,6 +25,7 @@ public class DispenserFill extends JavaPlugin {
         DispenserFill.instance = this;
 
         reloadMessages();
+        saveDefaultConfig();
 
         getCommand("filldispensers").setExecutor(new FillDispensersCommand("filldispensers"));
         getCommand("dfreload").setExecutor(new ReloadCommand("dfreload"));
